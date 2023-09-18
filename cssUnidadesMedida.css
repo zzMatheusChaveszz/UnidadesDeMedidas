@@ -1,0 +1,127 @@
+@charset "UTF-8";
+
+body{
+    background-color: #ebebeb;
+    margin: 0;
+    padding: 0;
+}
+
+header{      /* Pai */
+    text-align: center;
+    background-color: #232F3E;
+    padding-top: 0.1in;  /* in */
+    height: 48pt;    /* pt */
+    border-bottom: 3pc solid  #131A22; /* pc */
+}
+
+h1{  /* Filho */
+    color: white;
+    font-size: 190%; /* % */ 
+}
+
+a{ /* ancora / filho */
+    background-color: #222d3a;
+    color: white;
+    border: 0.2em solid gray; /* em */
+    padding: 0.5vh 1.5vh; /* vh */
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+#bull{
+    text-align: left;
+    background-color: rgb(55, 68, 80);
+    color: rgb(226, 227, 228);
+    font-family: cursive;
+    font-size: 2.3vh; 
+    padding-left: 3vh;
+    padding-right: 3vh;
+    margin-top: 7vh;
+    margin-left: 22vh;
+    margin-right: 22vh;
+}
+
+#ac{
+    text-align: left;
+    background-color: rgb(51, 56, 61);
+    color: rgb(226, 227, 228);
+    font-family: cursive;
+    font-size: 2.3vh; 
+    padding-left: 3vh;
+    padding-right: 3vh;
+    margin-top: 7vh;
+    margin-left: 22vh;
+    margin-right: 22vh;
+}
+
+#dc{
+    text-align: left;
+    background-color: rgb(27, 29, 31);
+    color: rgb(226, 227, 228);
+    font-family: cursive;
+    font-size: 2.3vh; 
+    padding-left: 3vh;
+    padding-right: 3vh;
+    margin-top: 7vh;
+    margin-left: 22vh;
+    margin-right: 22vh;
+}
+
+h2{
+    text-align: center;
+    border-radius: 3vh;
+    background-color: black;
+    color: white;
+    margin-left: 33vh;
+    margin-right: 33vh;
+    margin-top: 8vh;
+}
+
+img{
+    border: 2px solid black;
+    border-bottom: 33px solid rgb(51, 56, 61);
+    width: 80vh;
+    margin-left: 5.5vh;
+    margin-top: 1vh;
+    margin-bottom: 2vh;
+}
+
+p{
+    font-size: 2.2vh;
+    text-align: center;
+    background-color: rgba(171, 175, 187, 0.247);
+    margin-left: 4vh;
+    margin-right: 4vh;
+    margin-top: 3px;
+}
+
+h3{
+    background-color: #24292e;
+    border: 2px solid rgb(123, 135, 141);
+    border-radius: 5vh;
+    color: #ebebeb;
+    text-align: center;
+    font-size: 4vh;
+    margin-left: 25.3vh;
+    margin-right: 25.3vh;
+}
+
+#sobre{
+    text-align: left;
+    background-color: #17181ade;
+    border: 6.5px solid rgba(161, 153, 153, 0.87);
+    border-radius: 1.7%;
+    color: rgba(255, 255, 255, 0.795);
+    padding: 3.4vh;
+    margin-left: 25.3vh;
+    margin-right: 25.3vh;
+}
+
+footer{
+    background-color: #232F3E;
+    color: white;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    height: 10vh;
+}
